@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head><title>
+Task 1</title>
+
+<script>
+
+function calc(){
+var x=document.getElementById("task").value;
+ if(x>999 && x<10000){
+     var a=x%1000;
+    
+     var b=a%100;
+     var c=b%10;
+     var d=(x-a)/1000;
+     var e=(a-b)/100;
+     var f=(b-c)/10;
+     var z=c*d*e*f;
+     alert(z);
+     }
+    
+
+}
+</script>
+</head>
+
+<body>
+     
+<button type="button" onclick="calc();">Calculate</button>
+<input id="task" type="number">
+
+
+
+
+
+</body>
+
+
+
+</html>

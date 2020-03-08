@@ -1,0 +1,49 @@
+@media only screen and (max-width:768px)
+
+{
+.black div {
+    width: 100%;
+    margin-top:80%;
+    
+    
+    
+}
+.img img {
+    display: none;
+}
+.black h1{
+    font-size:25px;
+}
+.text-white{
+    text-align: center;
+}
+.block{
+    margin-top: 10%;
+}
+.fas {
+    margin-top: 3%;
+}
+.navbar-brand img {
+    margin-right: 10%;
+}
+.mountains div:first-child{
+    display: none;
+}
+.mountains div:last-child{
+    display: none;
+}
+.mountains div:nth-child(3){
+    display: none;
+}
+.mountains div img{
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.big-img img{
+   width: 80%;
+  height: 200px;
+}
+.form-inline{
+    margin-right: 20%;
+}
+}

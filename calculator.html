@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>calculator</title>
+</head>
+<body>
+    <input id="inp1"  type="number" >
+    <input id="inp2" type="number">
+    <button type="button" onclick="sum();">sum</button>
+    <button type="button" onclick="difference();">difference</button>
+    <button type="button" onclick="multiplication();">multiplication</button>
+    <button type="button" onclick="division();">division</button>
+    <button type="button" onclick="persdiv();">persent division</button>
+
+<script>
+function sum(){
+    x=document.getElementById("inp1").value;
+    y=document.getElementById("inp2").value;
+    
+    var z=parseInt(x)+parseInt(y);
+    alert(z);
+    
+
+}
+function difference(){
+    x=document.getElementById("inp1").value;
+    y=document.getElementById("inp2").value;
+    var z=x-y;
+    alert(z);
+
+}
+function multiplication(){
+    x=document.getElementById("inp1").value;
+    y=document.getElementById("inp2").value;
+    var z=x*y;
+    alert(z);
+
+}
+function division(){
+    x=document.getElementById("inp1").value;
+    y=document.getElementById("inp2").value;
+    var z=x/y;
+    alert(z);
+
+}
+function persdiv(){
+    x=document.getElementById("inp1").value;
+    y=document.getElementById("inp2").value;
+    var z=x%y;
+    alert(z);
+
+}
+            
+    
+      
+            
+    
+            
+       
+
+</script>
+</body>
+</html>

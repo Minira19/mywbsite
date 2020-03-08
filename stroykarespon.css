@@ -1,0 +1,360 @@
+@media only screen and (max-width:767px) {
+
+    .nis-menu li {
+        border-bottom: solid 1px #e0e7fd;
+        font-size: 20px;
+        list-style-type: none;
+    }
+
+    .head {
+        display: none;
+    }
+
+    .big-button {
+        display: none;
+    }
+
+    .respon-basic-menu {
+        width: 100%;
+        display: flex;
+        padding: 15px 25px 15px;
+        justify-content: space-between;
+    }
+
+    .left-menu {
+        display: flex;
+    }
+
+    .right-menu {
+        display: flex;
+    }
+
+    .big-menu-list li {
+        display: none !important;
+    }
+
+    .lil-icons {
+        display: none;
+    }
+
+    .hidden-menu {
+        margin-top: 5%;
+    }
+
+    .shown-grid button:hover {
+        background-color: #ffd800;
+        transition: 0.3s;
+        border: #ffd800;
+    }
+
+    .big-menu {
+        width: 95%;
+    }
+
+    .grid-item {
+        padding: 0px;
+    }
+
+    .popular-categoty {
+        width: 90%;
+    }
+
+    .last-news {
+        width: 85%;
+    }
+
+    .nis-menu {
+        position: absolute;
+        margin-top: 55%;
+        z-index: 50;
+        width: 100%;
+        border-top: solid 1px #000;
+        height: 350px;
+    }
+
+    .sliders {
+        width: 90%;
+        height: 250px;
+    }
+
+    .grid-item-last-popular hr {
+        width: 18vw;
+    }
+
+    .last-news hr {
+        width: 40vw;
+    }
+
+    .carousel-item {
+        height: 250px;
+    }
+
+    .carousel-inner {
+        height: 300px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .carousel-caption {
+        top: 30%;
+        display: block;
+    }
+
+        .carousel-caption h2 {
+            font-size: 20px;
+        }
+
+    .block-slideshow__slide-text {
+        display: none;
+    }
+
+    .begin-items {
+        display: none;
+    }
+
+    .menu-show li {
+        display: none;
+    }
+
+    .menu-hidden {
+        display: none;
+    }
+
+    .dropdown-menu {
+        transition:;
+    }
+
+    .drill img {
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(img/drill-lil.jpg);
+    }
+
+    .people img {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(img/people-lil.jpg);
+    }
+
+    .pin img {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(img/pin-lil.jpg);
+    }
+
+    .carousel-caption {
+        text-align: center;
+    }
+
+    .bg-light {
+        display: none;
+    }
+
+    .sec-name {
+        text-align: center;
+        display: block;
+    }
+
+    .navbar-light {
+        display: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .bestsellers {
+        display: none;
+    }
+
+    .fp {
+        margin-bottom: 5%;
+    }
+
+    .sec-option-end {
+        display: none;
+    }
+
+    .shown {
+        display: none;
+    }
+
+    .sec-option {
+        text-align: center;
+    }
+
+    .lil-banner {
+        width: 90%;
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(img/banner.jpg);
+    }
+
+    .little-menu {
+        width: 80vw;
+    }
+
+    .lil-banner h3 {
+        width: 80%;
+    }
+
+    .popular-item {
+        width: 100%;
+        height: 250px;
+    }
+
+    .arriv {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .latest-img {
+        width: 100%;
+        height: 300px;
+    }
+
+        .latest-img img {
+            width: 100%;
+        }
+
+    .latest-text {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .brands {
+        width: 90%;
+    }
+
+    .disap {
+        display: none;
+    }
+
+    .stay {
+        width: 50%;
+        display: inline;
+        flex-direction: row;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .two {
+        width: 50%;
+        text-align: center;
+    }
+
+    .news {
+        text-align: center;
+    }
+
+    .two-buttoms {
+        text-align: center;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .end {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .end div {
+            margin-top: 3%;
+        }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    .loupe {
+        display: block;
+    }
+
+    .begin-hamburger {
+        display: block;
+        position: relative;
+    }
+
+    .big-menu {
+        grid-template-columns: auto;
+    }
+
+    .grid-item {
+        margin-top: 5%;
+    }
+
+    .rank {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .rank img {
+            display: flex;
+            left: 50%;
+            transform: translate(10%);
+            width: 50%;
+        }
+
+    .rank-body {
+        width: 100%;
+        text-align: center;
+    }
+
+    .shown-grid {
+        display: block;
+    }
+
+
+    .grid-item:last-child {
+        display: none !important;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .featured-emp {
+        margin-bottom: 30px;
+    }
+    .grid-item-last-popular hr {
+        width: 40vw;
+    }
+    .media{
+        display:block;
+    }
+    .rank img{
+        width:100%;
+    }
+    .media-body {
+        text-align: left;
+        width: 100%;
+    }
+    .grid-item-last hr {
+        width: 60vw;
+    }
+    .last-news-ipad {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top:30px;
+    }
+    .bestsellers{
+        display:none;
+    }
+}
+

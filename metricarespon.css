@@ -1,0 +1,30 @@
+@media screen and (max-width:768px){
+    .after{
+        width:85%;
+    }
+    .after-item{
+        margin-top:3%;
+    }
+    .many-text{
+        display: none;
+    }
+   .col-md-6{
+       width: 100%;
+   }
+   .browser table{
+       width:100%;
+       font-size:12px;
+   }
+ 
+ .grid-container{
+     width: 85%;
+     display: block;
+ }
+ .hidden-footer{
+     display: none;
+ }
+ .center-footer{
+     display: flex;
+     margin: auto;
+ }
+}

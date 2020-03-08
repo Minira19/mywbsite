@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.introduction{
+    width:50%;
+}
+
+.fab {
+    color: #fff;
+    margin-left: 5%;
+}
+
+.fab:hover{
+    color: #ff0000;
+}
+
+
+.nav-link:hover{
+    color: #ff0000 !important;
+    font-weight:600;
+}
+.form-inline{
+    margin-left:20%;
+    
+    
+}
+.form-inline li{
+    width: 20%;
+    font-weight: 600;
+}
+.form-inline li:hover{
+    color: #ff0000;
+}
+.h-100{
+    margin-top: 10%;
+}
+.nav-item a{
+    margin-left: 50px;
+}
+.black div{
+    margin-top:10%;
+}
+.text-white li{
+    width: 100%;
+    display: inline;
+    list-style-type: none;
+    
+}
+.text-white{
+    width: 100%;
+    
+}
+.black{
+    width:100%;
+    height:80vh;
+    border: solid 3px #000;
+    background-image: url(img/boy.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.black div{
+    padding-top:10%;
+}
+.far{
+    margin-bottom: 3%;
+}
+.text-block p{
+    width: 70%;
+    margin-left:15%;
+}
+.bg-dark{
+    
+    background-color: #000 !important;
+}
+.img-block {
+    width:100%;
+}
+.img-block{
+    text-align: center;
+}
+.rounded-circle{
+    width: 30%;
+}
+.col-md-3 img{
+    margin-left: 20%;
+}
+.w-50{
+    margin-left: 25%;
+    
+}
+
+.big-img img{
+    width: 80%;
+    height:250px;
+    margin-left:10%;
+    margin-bottom:10%;
+    
+}
+.h-400{
+    width: 100%;
+}
+.h-400 div{
+    margin-bottom: 3%;
+}
+.column{
+    border-bottom: #fff;
+}
+.form-control{
+    border-bottom: #fff;
+    border:solid 3px transparent;
+    text-align: center;
+}
+.form-control:hover{
+    border-bottom: #fff;
+    border:solid 3px transparent;  
+}
+.images {
+    width: 80%;
+    margin-left: 10%;
+    height:50%;
+}
